@@ -8,6 +8,7 @@ Ideal para amigos, familiares ou colegas de trabalho que querem manter a tradiç
 ## 📸 Imagem do projeto:
 ![Páginal Inicial](assets/print.png)
 
+---
 
 ## 🚀 Destaques
 - 📋 Gerencie facilmente a lista de participantes.  
