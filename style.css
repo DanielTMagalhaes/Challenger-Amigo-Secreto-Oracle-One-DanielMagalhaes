@@ -16,18 +16,19 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh; /* garante que ocupe toda a altura da tela */
     background-color: var(--color-primary);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column; /* layout em coluna */
+    font-family: "Inter", sans-serif;
 }
 
 .main-content {
+    flex: 1; /* ocupa todo espaço disponível */
     display: flex;
     flex-direction: column;
-    height: 100%;
     width: 100%;
+    padding-bottom: 16px; /* opcional, para espaçamento interno */
 }
 
 /* Banner */
@@ -180,15 +181,14 @@ ul {
     background-color: #b52b27; /* vermelho mais escuro */
 }
 
+/* Footer */
 .footer {
     background-color: var(--color-primary);
     color: var(--color-white);
     text-align: center;
-    padding: 15px;
+    padding: 1px;
     font-size: 14px;
     font-family: "Inter", sans-serif;
-    position: fixed;
-    bottom: 0;
     width: 100%;
+    /* removido position: fixed */
 }
-
